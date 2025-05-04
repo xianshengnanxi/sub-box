@@ -17,16 +17,16 @@ assets = { directory = ".open-next/assets", binding = "ASSETS" }
 # Modify these to use the correct environment variables
 [vars]
 ADMIN_USERNAME = "admin"
-ADMIN_PASSWORD = "your-secure-password" # Change this to a secure password
-JWT_SECRET = "your-secret-key-should-be-very-long-and-random" # Change this to a secure secret key
+ADMIN_PASSWORD = "love012100" # Change this to a secure password
+JWT_SECRET = "6GlTCTNXaRyYlIEtEPBOyCt7rR3wJzho" # Change this to a secure secret key
 SESSION_TAG = "0"
 SESSION_DURATION = "7d"
 DEPLOY_TARGET = "cloudflare"
 
 [[d1_databases]]
 binding = "DB"
-database_name = "prod-sub-box-db" # Change this to the name of your D1 database
-database_id = "6d5afde0-0b33-41bf-959d-0a0086762040" # wrangler d1 info <YOUR_DATABASE_NAME>
+database_name = "subbox" # Change this to the name of your D1 database
+database_id = "b3112fbd-e3ad-4072-9ec5-644b7d620829" # wrangler d1 info <YOUR_DATABASE_NAME>
 
 [observability.logs]
 enabled = true
